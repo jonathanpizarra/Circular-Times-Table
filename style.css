@@ -18,12 +18,13 @@ body{
 }
 #stats{
     border:1px solid transparent ;
+    font-size: 18px;
     height:50px;
     width:100vw;
     
 }
 #but{
-
+    
 }
 #yt{
    
