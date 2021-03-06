@@ -1,25 +1,31 @@
-body {
+*{
     margin:0;
     padding:0;
 }
+body{
+    background-color: #eee;
+    overflow: hidden;
+}
 #canv{
-    
+    width:100%;
+    height:100vh;
+    position: absolute;
+}
+#container{
+    position: absolute;
+    top:0;
+    left:0;
 }
 #stats{
     border:1px solid transparent ;
     height:50px;
     width:100vw;
-    position:absolute ;
-      top:0;
+    
 }
 #but{
-    position:absolute ;
-      bottom:0;
-      left:40%;
+
 }
 #yt{
-    position:absolute ;
-      top:0;
-      right:0;
+   
     color:#4ae;
 }

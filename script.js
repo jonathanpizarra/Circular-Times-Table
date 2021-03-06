@@ -1,6 +1,6 @@
 
 window.onload = () => {
-    alert("Wait until N > 20 to see some beautiful patterns.")
+    // alert("Wait until N > 20 to see some beautiful patterns.")
     
     const canv = document.getElementById("canv");
     const stats = document.getElementById("stats");
@@ -11,7 +11,7 @@ window.onload = () => {
     const pxr = window.devicePixelRatio;
     let hp = h*pxr;
     let wp = w*pxr;
-    let r = wp/2-10;
+    let r = hp/2-10;
     let toggle = false;
     var setInt, setInt2 ;
     //color vars
@@ -25,8 +25,8 @@ window.onload = () => {
     //dimensions
     canv.height = hp;
     canv.width = wp;
-    canv.style.height = h + "px";
-    canv.style.width = w + "px";
+    // canv.style.height = h + "px";
+    // canv.style.width = w + "px";
     let c = canv.getContext("2d");
     c.lineWidth = 1;
     //
