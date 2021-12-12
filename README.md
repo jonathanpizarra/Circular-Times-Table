@@ -2,7 +2,7 @@
 
 This code is based on a video on the YouTube channel Mathologer about times table:
 
-    [YouTube](https://youtu.be/qhbuKbxJsk8)
+[YouTube](https://youtu.be/qhbuKbxJsk8)
 
 This is also my first code with ES6 syntax.
 
